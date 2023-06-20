@@ -105,8 +105,8 @@ a {
 .align-text-end {
     text-align: end;
 }
-h1,p{
-    padding-bottom: 2.5rem;
+h1,.par-pad{
+    padding-bottom: 3rem;
     text-align: center;
 }
 .h2-l{
@@ -121,9 +121,16 @@ h1,p{
     text-align: left;
     font-size: 1.25rem;
 }
+.h2-center{
+    padding: 1rem 0;
+}
 h2{
     font-size: 2.75rem;
 }
+.p-cent{
+    padding: 0 5rem;
+}
+
 .space-parag-l{
     padding: 1rem 5rem 0 0;
     text-align: left;
@@ -162,6 +169,10 @@ h2{
 .small-botton {
     width: 60px;
 }
+.last-button{
+    background-color: #8EA1E1;
+    color: white;
+}
 
 .marg-top-bot {
     margin: 10px 0;
@@ -170,19 +181,25 @@ h2{
 /* box */
 
 .sup-big-box {
-    height: 800px;
+    min-height: 1000px;
 }
 
 .big-box {
     width: 100%;
-    height: 700px;
-
+    height: 600px;
+}
+h3{
+    font-size: 2rem;
 }
 
 .sup-box {
     width: 1000px;
-    height: 700px;
-    border: 1px dashed black;
+    min-height: 700px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 
 .box-unique {
@@ -225,6 +242,11 @@ h2{
     height: 100%;
     border: 1px dashed white;
 }
+.box-size{
+    padding-top: 1rem;
+    min-height: 100px;
+    text-align: center;
+}
 
 .foot-box {
     height: 50px;
@@ -261,9 +283,10 @@ h2{
     color:#F6F6F6;
 }
 
-.back-green {
-    background-color: #228B22;
+.back-img-star {
+    background-image:url('../img/stars.svg') ;
 }
+
 
 .back-black {
     background-color: #23272A;
