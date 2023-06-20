@@ -109,12 +109,23 @@ h1,p{
     padding-bottom: 2.5rem;
     text-align: center;
 }
+.h2-l{
+    padding: 5rem 5rem 1rem 0rem;
+}
+.h2-r{
+    padding: 6rem 0rem 1rem 5rem;
+
+}
+.space-parag-r{
+    padding: 1rem 3rem 0 5rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
 h2{
     font-size: 2.75rem;
-    padding: 6rem 3rem 1rem 3rem;
 }
-.space-parag{
-    padding: 1rem 3rem;
+.space-parag-l{
+    padding: 1rem 5rem 0 0;
     text-align: left;
     font-size: 1.25rem;
 }
@@ -164,7 +175,7 @@ h2{
 
 .big-box {
     width: 100%;
-    height: 500px;
+    height: 700px;
 
 }
 
@@ -194,7 +205,7 @@ h2{
 
 .sm-box {
     width: 400px;
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .min-box {
@@ -238,12 +249,16 @@ h2{
     background-image: url('../img/item1.svg');
 }
 
-.back-pink {
-    background-color: #FFC0CB;
+.back-img-2 {
+    background-image: url('../img/item2.svg');
+}
+.back-img-3 {
+    background-image: url('../img/item3.svg');
 }
 
-.back-light-grey {
-    background-color: #D3D3D3;
+.back-wave {
+    background-image: url('../img/wave.svg');
+    color:#F6F6F6;
 }
 
 .back-green {
