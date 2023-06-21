@@ -247,23 +247,22 @@ img{
 }
 
 .col-box {
-    width: 700px;
-    height: 400px;
+    min-width: 700px;
+    max-height: 400px;
 }
 
 .min-col-box {
-    width: 25%;
-    height: 100%;
+    min-width: 25%;
+    min-height: 100%;
 }
 .box-size{
-    padding-top: 1rem;
     min-height: 100px;
     text-align: center;
 }
 
 .foot-box {
-    height: 20px;
-    width: 1000px;
+    min-height: 20px;
+   min-width: 1000px;
 }
 
 /* color */
@@ -301,6 +300,7 @@ background-image:url('../img/stars.svg') ;
 background-size:60%;
 background-repeat:no-repeat;
 background-position: center;
+height: 55px;
 }
 
 
