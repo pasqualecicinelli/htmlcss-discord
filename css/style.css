@@ -187,6 +187,10 @@ h3{
 .marg-top-bot {
     margin: 10px 0;
 }
+#size-text{
+    font-size: 0.75rem;
+    padding: 10px;
+}
 
 /* box */
 
@@ -258,7 +262,7 @@ img{
 }
 
 .foot-box {
-    height: 50px;
+    height: 20px;
     width: 1000px;
 }
 
@@ -293,7 +297,10 @@ img{
 }
 
 .back-img-star {
-    background-image:url('../img/stars.svg') ;
+background-image:url('../img/stars.svg') ;
+background-size:60%;
+background-repeat:no-repeat;
+background-position: center;
 }
 
 
@@ -312,13 +319,6 @@ li > a.first-a {
     color:#7289DA;
 }
 
-.back-green-water {
-    background-color: #20B2AA;
-}
-
-.back-light-green {
-    background-color: #7FFFD4;
-}
 .foot-color{
     color:#7289DA;
     margin: 50px 10px 20px;
@@ -330,6 +330,7 @@ li > a.first-a {
 }
 .text-white{
     color: white;
+    font-size: 0.75rem;
 }
 .margin-sup{
     margin: 50px 10px 20px;
