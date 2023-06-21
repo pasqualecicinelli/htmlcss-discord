@@ -166,6 +166,7 @@ h3{
 .jumbo-button-l{
     height: 45px;
     width: 200px;
+    margin:0 10px;
     
 }
 .jumbo-button-r{
@@ -173,8 +174,7 @@ h3{
     width: 250px;
     background-color: black;
     color: white;
-    
-    
+    margin:0 10px;
 }
 .all-button{
     border-radius: 2rem;
@@ -226,8 +226,8 @@ img{
 }
 
 .box-unique {
-    width: 800px;
-    height: 400px;
+    width: 850px;
+    height: 450px;
     text-align: center;
     color: white;
     font-size: 1.5rem;
@@ -286,6 +286,9 @@ img{
 .back-black {
     background-color: #23272A;
 }
+.back-gray{
+    background-color: #F6F6F6;
+}
 
 .back-img-1 {
     background-image: url('../img/item1.svg');
@@ -298,9 +301,12 @@ img{
     background-image: url('../img/item3.svg');
 }
 
-.back-wave {
-    background-image: url('../img/wave.svg');
+.wave {
     color:#F6F6F6;
+    display: block;
+}
+.rotated{
+    transform: rotate(180deg);
 }
 
 .back-img-star {
