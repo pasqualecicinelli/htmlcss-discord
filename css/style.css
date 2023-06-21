@@ -77,7 +77,10 @@ i {
 }
 
 .align-end {
-    align-items: end;
+    align-items: flex-end;
+}
+.align-start {
+    align-items:flex-start;
 }
 
 .gap {
@@ -127,10 +130,17 @@ h1,.par-pad{
 h2{
     font-size: 2.75rem;
 }
+
+h3{
+    font-size: 2rem;
+}
+
 .p-cent{
     padding: 0 5rem;
 }
-
+.pad-left{
+    padding-left: 1.80rem;
+}
 .space-parag-l{
     padding: 1rem 5rem 0 0;
     text-align: left;
@@ -138,7 +148,7 @@ h2{
 }
 
 .bord-bot {
-    border-bottom: 1px solid #D3D3D3;
+    border-bottom: 1px solid #46537B;
 }
 
 .small-nav button {
@@ -185,15 +195,17 @@ h2{
 }
 
 .big-box {
-    width: 100%;
-    height: 600px;
+    min-width: 100%;
+    min-height: 700px;
 }
-h3{
-    font-size: 2rem;
+.big-box-foot {
+    min-width: 100%;
+    min-height: 450px;
 }
 
+
 .sup-box {
-    width: 1000px;
+    max-width: 1000px;
     min-height: 700px;
     text-align: center;
 }
@@ -227,20 +239,17 @@ img{
 
 .min-box {
     width: 300px;
-    height: 450px;
-    border: 1px dashed black;
+    height: 400px;
 }
 
 .col-box {
     width: 700px;
-    height: 450px;
-    border: 1px dashed white;
+    height: 400px;
 }
 
 .min-col-box {
     width: 25%;
     height: 100%;
-    border: 1px dashed white;
 }
 .box-size{
     padding-top: 1rem;
@@ -260,11 +269,11 @@ img{
 .every-bg{
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size:cover;
 }
 
-.back-white {
-    background-color: white;
+.back-black {
+    background-color: #23272A;
 }
 
 .back-img-1 {
@@ -288,12 +297,19 @@ img{
 }
 
 
-.back-black {
-    background-color: #23272A;
+.flag-it{
+    background-image: url('../img/ita.png');
+    background-size: contain;
+    background-position:left;
+    background-repeat: no-repeat;
+    height: 4%; 
+    width: 8%;
+    margin-left: 10px;
 }
 
-.back-dark-pink {
-    background-color: #F08080;
+
+li > a.first-a {
+    color:#7289DA;
 }
 
 .back-green-water {
@@ -302,4 +318,19 @@ img{
 
 .back-light-green {
     background-color: #7FFFD4;
+}
+.foot-color{
+    color:#7289DA;
+    margin: 50px 10px 20px;
+}
+.fa-brands{
+    margin:10px 6px;
+    color: white;
+    background-color: transparent;
+}
+.text-white{
+    color: white;
+}
+.margin-sup{
+    margin: 50px 10px 20px;
 }
