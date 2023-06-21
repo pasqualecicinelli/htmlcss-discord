@@ -105,8 +105,8 @@ a {
     padding: 5px;
 }
 
-.align-text-end {
-    text-align: end;
+.align-text-center {
+    text-align: center;
 }
 h1,.par-pad{
     padding-bottom: 3rem;
@@ -133,6 +133,13 @@ h2{
 
 h3{
     font-size: 2rem;
+}
+.text-white{
+    color: white;
+    font-size: 0.75rem;
+}
+.margin-sup{
+    margin: 50px 10px 20px;
 }
 
 .p-cent{
@@ -265,7 +272,8 @@ img{
    min-width: 1000px;
 }
 
-/* color */
+/* backgroung img */
+
 .back-jumbo {
     background-image: url('../img/jumbo.png');
 }
@@ -327,11 +335,4 @@ li > a.first-a {
     margin:10px 6px;
     color: white;
     background-color: transparent;
-}
-.text-white{
-    color: white;
-    font-size: 0.75rem;
-}
-.margin-sup{
-    margin: 50px 10px 20px;
 }
